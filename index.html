@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            background-color: #3e8e41;
+            padding: 10px 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            background-color: #4CAF50;
+        }
+        nav a:hover {
+            background-color: #45a049;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            justify-content: center;
+            flex-grow: 1;
+        }
+        .card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .card h3 {
+            margin: 10px 0;
+        }
+        .card p {
+            font-size: 14px;
+            color: #555;
+            flex-grow: 1;
+        }
+        .card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .card a:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EduAI</h1>
+        <p>Explore personalized educational content tailored to your needs</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Categories</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Profile</a>
+    </nav>
+    <div class="content">
+
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Smart Farming Techniques">
+            <h3>Smart Farming Techniques</h3>
+            <p>Explore AI-driven farming methods to boost productivity and sustainability.</p>
+            <a href="content.html">View Content</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Advanced Literacy Resources">
+            <h3>Advanced Literacy Resources</h3>
+            <p>Personalized reading and writing content to improve literacy at all levels.</p>
+            <a href="content.html">View Content</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Reproductive Health Education">
+            <h3>Reproductive Health Education</h3>
+            <p>Access key sexual health information to promote well-being and informed choices.</p>
+            <a href="content.html">View Content</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Sustainable Agriculture Practices">
+            <h3>Sustainable Agriculture Practices</h3>
+            <p>Learn techniques to enhance crop yield and reduce environmental impact.</p>
+            <a href="content.html">View Content</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Basic Literacy Foundations">
+            <h3>Basic Literacy Foundations</h3>
+            <p>Improve foundational literacy skills with simple, accessible materials.</p>
+            <a href="content.html">View Content</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Health and Wellness Awareness">
+            <h3>Health and Wellness Awareness</h3>
+            <p>Access resources to promote healthier lifestyles and better sexual health.</p>
+            <a href="content.html">View Content</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Climate-Smart Agriculture">
+            <h3>Climate-Smart Agriculture</h3>
+            <p>Adopt climate-resilient farming techniques to boost yield and sustainability.</p>
+            <a href="content.html">View Content</a>
+        </div>
+        <div class="card">
+            <img src="https://via.placeholder.com/300x150" alt="Financial Literacy for Rural Communities">
+            <h3>Financial Literacy for Rural Communities</h3>
+            <p>Gain financial knowledge to make informed decisions and improve stability.</p>
+            <a href="content.html">View Content</a>
+        </div>
+
+    </div>
+    <footer>
+        <p>&copy; 2024 EduAI Platform</p>
+    </footer>
+</body>
+</html>

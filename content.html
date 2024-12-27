@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Content Page - Educational Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .home-button {
+      background-color: white;
+      color: #4CAF50;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 14px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .home-button:hover {
+      background-color: #f0f0f0;
+    }
+    .content-container {
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .video {
+      width: 100%;
+      background: #000;
+    }
+    .video iframe {
+      width: 100%;
+      height: 400px;
+    }
+    .article {
+      padding: 20px;
+    }
+    .article h2 {
+      margin: 0;
+      color: #4CAF50;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EduAI Platform</h1>
+    <a href="index.html" class="home-button">Home</a>
+  </header>
+
+  <div class="content-container">
+    <div class="video">
+        <video width="800" controls>
+            <source src="video.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="article">
+      <h2>Understanding Soil Preparation</h2>
+      <p>
+        Soil preparation is one of the most critical steps in farming. By properly preparing the soil, farmers can ensure better crop growth, reduced water usage, and improved productivity. 
+        Here's a guide to the best practices for preparing your soil...
+      </p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 EduAI Platform</p>
+  </footer>
+</body>
+</html>
